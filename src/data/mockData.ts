@@ -595,7 +595,7 @@ export const mockLineData = [
   },
 ];
 
-export const mockGeographyData = [
+export const mockGeoData = [
   {
     id: "AFG",
     value: 520600,

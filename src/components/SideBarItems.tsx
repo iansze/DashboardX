@@ -99,14 +99,14 @@ const SideBarItems = ({ colors, selected, setSelected }: SideBarItemsProps) => {
       />
       <SideBarItem
         title="Line Chart"
-        to="/line"
+        to="/lineChart"
         icon={<TimelineOutlinedIcon />}
         selected={selected}
         setSelected={setSelected}
       />
       <SideBarItem
         title="Geography Chart"
-        to="/geography"
+        to="/geoChart"
         icon={<MapOutlinedIcon />}
         selected={selected}
         setSelected={setSelected}

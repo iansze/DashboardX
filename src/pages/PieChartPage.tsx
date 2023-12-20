@@ -2,9 +2,7 @@ import { Box } from "@mui/material";
 import Header from "../components/Header";
 import PieChart from "../components/PieChart";
 
-type Props = {};
-
-const PieChartPage = (props: Props) => {
+const PieChartPage = () => {
   return (
     <Box m="20px">
       <Header title="Pie Chart" subtitle="Simple Pie Chart" />

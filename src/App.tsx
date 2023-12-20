@@ -16,10 +16,11 @@ import CalendarPage from "./pages/CalendarPage";
 
 import BarChartPage from "./pages/BarChartPage";
 import PieChartPage from "./pages/PieChartPage";
+import LineChartPage from "./pages/LineChartPage";
+import GeoChartPage from "./pages/GeoChartPage";
 
 const App = () => {
   const { theme, colorMode } = useMode();
-  const [isSidebar, setIsSidebar] = useState(true);
 
   return (
     <ColorModeContext.Provider value={colorMode}>
@@ -36,8 +37,10 @@ const App = () => {
               <Route path="/invoices" element={<InvoicesPage />} />
               <Route path="/form" element={<ProfileFormPage />} />
               <Route path="/calendar" element={<CalendarPage />} />
-              <Route path="/BarChart" element={<BarChartPage />} />
-              <Route path="/PieChart" element={<PieChartPage />} />
+              <Route path="/barChart" element={<BarChartPage />} />
+              <Route path="/pieChart" element={<PieChartPage />} />
+              <Route path="/lineChart" element={<LineChartPage />} />
+              <Route path="/geoChart" element={<GeoChartPage />} />
             </Routes>
           </main>
         </div>

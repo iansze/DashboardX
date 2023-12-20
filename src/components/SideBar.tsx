@@ -13,7 +13,7 @@ const SideBar = () => {
 
   return (
     <Box>
-      <Sidebar collapsed={isCollapsed}>
+      <Sidebar collapsed={isCollapsed} backgroundColor={colors.primary[700]}>
         <Menu
           menuItemStyles={{
             button: {

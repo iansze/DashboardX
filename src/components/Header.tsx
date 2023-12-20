@@ -11,10 +11,10 @@ const Header = ({ title, subtitle }: HeaderProps) => {
   const colors = colorDesign(theme.palette.mode);
   return (
     <Box>
-      <Typography variant="h1" color={colors.grey[100]}>
+      <Typography variant="h3" color={colors.grey[100]}>
         {title}
       </Typography>
-      <Typography variant="h3" color={colors.greenAccent[400]}>
+      <Typography variant="h5" color={colors.greenAccent[400]}>
         {subtitle}
       </Typography>
     </Box>
